@@ -1,0 +1,49 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v2.2",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v2.2": {
+      "StringCalculator/1.0.0": {
+        "dependencies": {
+          "StringCalculator.Services": "1.0.0"
+        },
+        "runtime": {
+          "StringCalculator.dll": {}
+        }
+      },
+      "StringCalculator.Entities/1.0.0": {
+        "runtime": {
+          "StringCalculator.Entities.dll": {}
+        }
+      },
+      "StringCalculator.Services/1.0.0": {
+        "dependencies": {
+          "StringCalculator.Entities": "1.0.0"
+        },
+        "runtime": {
+          "StringCalculator.Services.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "StringCalculator/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "StringCalculator.Entities/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "StringCalculator.Services/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
