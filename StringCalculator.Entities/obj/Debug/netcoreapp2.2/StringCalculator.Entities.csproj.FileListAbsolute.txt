@@ -15,3 +15,11 @@ C:\WorkFiles\R365\StringCalculator.Entities\obj\Debug\netcoreapp2.2\StringCalcul
 C:\WorkFiles\R365\StringCalculator.Entities\obj\Debug\netcoreapp2.2\StringCalculator.Entities.AssemblyInfo.cs
 C:\WorkFiles\R365\StringCalculator.Entities\obj\Debug\netcoreapp2.2\StringCalculator.Entities.dll
 C:\WorkFiles\R365\StringCalculator.Entities\obj\Debug\netcoreapp2.2\StringCalculator.Entities.pdb
+C:\WorkFiles\Prototypes\R365\R365\StringCalculator.Entities\bin\Debug\netcoreapp2.2\StringCalculator.Entities.deps.json
+C:\WorkFiles\Prototypes\R365\R365\StringCalculator.Entities\bin\Debug\netcoreapp2.2\StringCalculator.Entities.dll
+C:\WorkFiles\Prototypes\R365\R365\StringCalculator.Entities\bin\Debug\netcoreapp2.2\StringCalculator.Entities.pdb
+C:\WorkFiles\Prototypes\R365\R365\StringCalculator.Entities\obj\Debug\netcoreapp2.2\StringCalculator.Entities.csprojAssemblyReference.cache
+C:\WorkFiles\Prototypes\R365\R365\StringCalculator.Entities\obj\Debug\netcoreapp2.2\StringCalculator.Entities.AssemblyInfoInputs.cache
+C:\WorkFiles\Prototypes\R365\R365\StringCalculator.Entities\obj\Debug\netcoreapp2.2\StringCalculator.Entities.AssemblyInfo.cs
+C:\WorkFiles\Prototypes\R365\R365\StringCalculator.Entities\obj\Debug\netcoreapp2.2\StringCalculator.Entities.dll
+C:\WorkFiles\Prototypes\R365\R365\StringCalculator.Entities\obj\Debug\netcoreapp2.2\StringCalculator.Entities.pdb

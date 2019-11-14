@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\WorkFiles\\R365\\src\\StringCalculator.Services.Tests\\StringCalculator.Services.Tests.csproj": {}
+    "C:\\WorkFiles\\Prototypes\\R365\\R365\\StringCalculator.Services.Tests\\StringCalculator.Services.Tests.csproj": {}
   },
   "projects": {
-    "C:\\WorkFiles\\R365\\src\\StringCalculator.Entities\\StringCalculator.Entities.csproj": {
+    "C:\\WorkFiles\\Prototypes\\R365\\R365\\StringCalculator.Entities\\StringCalculator.Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\WorkFiles\\R365\\src\\StringCalculator.Entities\\StringCalculator.Entities.csproj",
+        "projectUniqueName": "C:\\WorkFiles\\Prototypes\\R365\\R365\\StringCalculator.Entities\\StringCalculator.Entities.csproj",
         "projectName": "StringCalculator.Entities",
-        "projectPath": "C:\\WorkFiles\\R365\\src\\StringCalculator.Entities\\StringCalculator.Entities.csproj",
+        "projectPath": "C:\\WorkFiles\\Prototypes\\R365\\R365\\StringCalculator.Entities\\StringCalculator.Entities.csproj",
         "packagesPath": "C:\\Users\\D813504\\.nuget\\packages\\",
-        "outputPath": "C:\\WorkFiles\\R365\\src\\StringCalculator.Entities\\obj\\",
+        "outputPath": "C:\\WorkFiles\\Prototypes\\R365\\R365\\StringCalculator.Entities\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -65,14 +65,14 @@
         }
       }
     },
-    "C:\\WorkFiles\\R365\\src\\StringCalculator.Services.Tests\\StringCalculator.Services.Tests.csproj": {
+    "C:\\WorkFiles\\Prototypes\\R365\\R365\\StringCalculator.Services.Tests\\StringCalculator.Services.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\WorkFiles\\R365\\src\\StringCalculator.Services.Tests\\StringCalculator.Services.Tests.csproj",
+        "projectUniqueName": "C:\\WorkFiles\\Prototypes\\R365\\R365\\StringCalculator.Services.Tests\\StringCalculator.Services.Tests.csproj",
         "projectName": "StringCalculator.Services.Tests",
-        "projectPath": "C:\\WorkFiles\\R365\\src\\StringCalculator.Services.Tests\\StringCalculator.Services.Tests.csproj",
+        "projectPath": "C:\\WorkFiles\\Prototypes\\R365\\R365\\StringCalculator.Services.Tests\\StringCalculator.Services.Tests.csproj",
         "packagesPath": "C:\\Users\\D813504\\.nuget\\packages\\",
-        "outputPath": "C:\\WorkFiles\\R365\\src\\StringCalculator.Services.Tests\\obj\\",
+        "outputPath": "C:\\WorkFiles\\Prototypes\\R365\\R365\\StringCalculator.Services.Tests\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -94,8 +94,8 @@
         "frameworks": {
           "netcoreapp2.2": {
             "projectReferences": {
-              "C:\\WorkFiles\\R365\\src\\StringCalculator.Services\\StringCalculator.Services.csproj": {
-                "projectPath": "C:\\WorkFiles\\R365\\src\\StringCalculator.Services\\StringCalculator.Services.csproj"
+              "C:\\WorkFiles\\Prototypes\\R365\\R365\\StringCalculator.Services\\StringCalculator.Services.csproj": {
+                "projectPath": "C:\\WorkFiles\\Prototypes\\R365\\R365\\StringCalculator.Services\\StringCalculator.Services.csproj"
               }
             }
           }
@@ -142,14 +142,14 @@
         }
       }
     },
-    "C:\\WorkFiles\\R365\\src\\StringCalculator.Services\\StringCalculator.Services.csproj": {
+    "C:\\WorkFiles\\Prototypes\\R365\\R365\\StringCalculator.Services\\StringCalculator.Services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\WorkFiles\\R365\\src\\StringCalculator.Services\\StringCalculator.Services.csproj",
+        "projectUniqueName": "C:\\WorkFiles\\Prototypes\\R365\\R365\\StringCalculator.Services\\StringCalculator.Services.csproj",
         "projectName": "StringCalculator.Services",
-        "projectPath": "C:\\WorkFiles\\R365\\src\\StringCalculator.Services\\StringCalculator.Services.csproj",
+        "projectPath": "C:\\WorkFiles\\Prototypes\\R365\\R365\\StringCalculator.Services\\StringCalculator.Services.csproj",
         "packagesPath": "C:\\Users\\D813504\\.nuget\\packages\\",
-        "outputPath": "C:\\WorkFiles\\R365\\src\\StringCalculator.Services\\obj\\",
+        "outputPath": "C:\\WorkFiles\\Prototypes\\R365\\R365\\StringCalculator.Services\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -171,8 +171,8 @@
         "frameworks": {
           "netcoreapp2.2": {
             "projectReferences": {
-              "C:\\WorkFiles\\R365\\src\\StringCalculator.Entities\\StringCalculator.Entities.csproj": {
-                "projectPath": "C:\\WorkFiles\\R365\\src\\StringCalculator.Entities\\StringCalculator.Entities.csproj"
+              "C:\\WorkFiles\\Prototypes\\R365\\R365\\StringCalculator.Entities\\StringCalculator.Entities.csproj": {
+                "projectPath": "C:\\WorkFiles\\Prototypes\\R365\\R365\\StringCalculator.Entities\\StringCalculator.Entities.csproj"
               }
             }
           }

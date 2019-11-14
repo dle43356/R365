@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\WorkFiles\\R365\\src\\StringCalculator.Entities\\StringCalculator.Entities.csproj": {}
+    "C:\\WorkFiles\\Prototypes\\R365\\R365\\StringCalculator.Entities\\StringCalculator.Entities.csproj": {}
   },
   "projects": {
-    "C:\\WorkFiles\\R365\\src\\StringCalculator.Entities\\StringCalculator.Entities.csproj": {
+    "C:\\WorkFiles\\Prototypes\\R365\\R365\\StringCalculator.Entities\\StringCalculator.Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\WorkFiles\\R365\\src\\StringCalculator.Entities\\StringCalculator.Entities.csproj",
+        "projectUniqueName": "C:\\WorkFiles\\Prototypes\\R365\\R365\\StringCalculator.Entities\\StringCalculator.Entities.csproj",
         "projectName": "StringCalculator.Entities",
-        "projectPath": "C:\\WorkFiles\\R365\\src\\StringCalculator.Entities\\StringCalculator.Entities.csproj",
+        "projectPath": "C:\\WorkFiles\\Prototypes\\R365\\R365\\StringCalculator.Entities\\StringCalculator.Entities.csproj",
         "packagesPath": "C:\\Users\\D813504\\.nuget\\packages\\",
-        "outputPath": "C:\\WorkFiles\\R365\\src\\StringCalculator.Entities\\obj\\",
+        "outputPath": "C:\\WorkFiles\\Prototypes\\R365\\R365\\StringCalculator.Entities\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

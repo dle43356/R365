@@ -12,10 +12,6 @@ namespace StringCalculator.Services
         public IEnumerable<int> ProcessInput(string input)
         {
             var segments = input.Split(_delimiter).ToList();
-            if(segments.Count > 2)
-            {
-                throw new TooManyNumbersException();
-            }
             var numbers = new List<int>();
             segments.ForEach(x =>
             {

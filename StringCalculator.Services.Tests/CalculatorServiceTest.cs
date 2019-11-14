@@ -28,13 +28,15 @@ namespace Tests
             Assert.IsTrue(result == -3);
             result = _calculatorService.Calculate("5,dfaadf");
             Assert.IsTrue(result == 5);
-
-            Assert.Throws<TooManyNumbersException>(TooManyNumbers);
         }
 
-        private void TooManyNumbers()
+        [Test]
+        public void TestCalculateNoLimitNumbers()
         {
-            _calculatorService.Calculate("1,2,6");
+            var result = _calculatorService.Calculate("1,2,4,5");
+            Assert.IsTrue(result == 12);
+            result = _calculatorService.Calculate("1,2,-4,5");
+            Assert.IsTrue(result == 4);
         }
     }
 }
