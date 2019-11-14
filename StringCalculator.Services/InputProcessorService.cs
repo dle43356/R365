@@ -8,6 +8,7 @@ namespace StringCalculator.Services
     public class InputProcessorService : IInputProcessorService
     {
         private string[] _delimiters = { @",", @"\n" };
+        private int _maxNumber = 1000;
 
         public IEnumerable<int> ProcessInput(string input)
         {
@@ -18,7 +19,7 @@ namespace StringCalculator.Services
                 int number;
                 if(int.TryParse(x, out number))
                 {
-                    numbers.Add(number);
+                    numbers.Add(number <= _maxNumber ? number : 0);
                 }
                 else
                 {

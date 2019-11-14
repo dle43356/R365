@@ -52,5 +52,12 @@ namespace Tests
         }
 
         private void NegativeNumbers() => _calculatorService.Calculate(@"1\n2,-3");
+
+        [Test]
+        public void TestCalculateMax1000()
+        {
+            var result = _calculatorService.Calculate(@"1\n1001,3");
+            Assert.IsTrue(result == 4);
+        }
     }
 }
