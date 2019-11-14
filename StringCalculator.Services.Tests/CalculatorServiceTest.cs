@@ -38,5 +38,14 @@ namespace Tests
             result = _calculatorService.Calculate("1,2,-4,5");
             Assert.IsTrue(result == 4);
         }
+
+        [Test]
+        public void TestCalculateNewlineDelimiter()
+        {
+            var result = _calculatorService.Calculate(@"1\n2,3");
+            Assert.IsTrue(result == 6);
+            result = _calculatorService.Calculate(@"1\n2,3\n4,5");
+            Assert.IsTrue(result == 15);
+        }
     }
 }

@@ -7,11 +7,11 @@ namespace StringCalculator.Services
 {
     public class InputProcessorService : IInputProcessorService
     {
-        private string _delimiter = ",";
+        private string[] _delimiters = { @",", @"\n" };
 
         public IEnumerable<int> ProcessInput(string input)
         {
-            var segments = input.Split(_delimiter).ToList();
+            var segments = input.Split(_delimiters, System.StringSplitOptions.RemoveEmptyEntries).ToList();
             var numbers = new List<int>();
             segments.ForEach(x =>
             {
