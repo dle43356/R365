@@ -12,7 +12,10 @@ namespace StringCalculator
             // In production, would use DI
             try
             {
-                Console.WriteLine(new CalculatorService(new InputProcessorService()).Calculate(input));
+                var calculatorService =
+                    new CalculatorService(new InputProcessorService(),
+                                          new ValidatorService());
+                Console.WriteLine(calculatorService.Calculate(input));
             }
             catch(Exception ex)
             {

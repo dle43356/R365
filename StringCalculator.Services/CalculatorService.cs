@@ -9,14 +9,22 @@ namespace StringCalculator.Services
     public class CalculatorService : ICalculatorService
     {
         private readonly IInputProcessorService _inputProcessorService;
+        private readonly IValidatorService _validatorService;
 
-        public CalculatorService(IInputProcessorService inputProcessorService)
+        public CalculatorService(IInputProcessorService inputProcessorService,
+                                 IValidatorService validatorService)
         {
             _inputProcessorService = inputProcessorService;
+            _validatorService = validatorService;
         }
         public int Calculate(string input)
         {
             var numbers = _inputProcessorService.ProcessInput(input);
+            var exception = _validatorService.Validate(numbers);
+            if(exception != null)
+            {
+                throw exception;
+            }
             return numbers.Sum();
         }
     }
