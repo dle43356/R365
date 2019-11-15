@@ -14,11 +14,19 @@ namespace StringCalculator.Utilities.Tests
         }
 
         [Test]
-        public void TestGetCustomDelimiter()
+        public void TestGetCustomDelimiterSingleChar()
         {
             var customDelimiter = _delimiterHelper.GetCustomDelimiter(@"//#\n2#5");
             Assert.IsTrue(customDelimiter.Delimiter == "#");
             Assert.IsTrue(customDelimiter.LengthToRemoveFromInput == 3);
+        }
+
+        [Test]
+        public void TestGetCustomDelimiterString()
+        {
+            var customDelimiter = _delimiterHelper.GetCustomDelimiter(@"//[***]\n11***22***33");
+            Assert.IsTrue(customDelimiter.Delimiter == "***");
+            Assert.IsTrue(customDelimiter.LengthToRemoveFromInput == 7);
         }
     }
 }

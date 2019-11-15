@@ -69,5 +69,16 @@ namespace Tests
             result = _calculatorService.Calculate(@"//,\n2,ff,100");
             Assert.IsTrue(result == 102);
         }
+
+        [Test]
+        public void TestCalculateCustomDelimiterMultipleCharacters()
+        {
+            var result = _calculatorService.Calculate(@"//#\n2#5");
+            Assert.IsTrue(result == 7);
+            result = _calculatorService.Calculate(@"//[***]\n11***22***33");
+            Assert.IsTrue(result == 66);
+            result = _calculatorService.Calculate(@"//[***]\n11***22***33,5");
+            Assert.IsTrue(result == 71);
+        }
     }
 }

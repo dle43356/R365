@@ -7,22 +7,26 @@ namespace StringCalculator.Services
 {
     public class InputProcessorService : IInputProcessorService
     {
-        private IList<string> _delimiters = new List<string> { @",", @"\n" };
+        private IList<string> _baseDelimiters = new List<string> { @",", @"\n" };
         private int _maxNumber = 1000;
 
         private readonly IDelimiterHelper _delimiterHelper;
 
         public InputProcessorService(IDelimiterHelper delimiterHelper) => _delimiterHelper = delimiterHelper;
 
+        private IList<string> GetDefaultDelimiters() => _baseDelimiters.Select(x => x).ToList();
+
         public IEnumerable<int> ProcessInput(string input)
         {
+            var delimiters = GetDefaultDelimiters();
+
             var customDelimiter = _delimiterHelper.GetCustomDelimiter(input);
             if (!string.IsNullOrEmpty(customDelimiter?.Delimiter))
             {
-                _delimiters.Add(customDelimiter.Delimiter);
+                delimiters.Add(customDelimiter.Delimiter);
                 input = input.Substring(customDelimiter.LengthToRemoveFromInput);
             }
-            var segments = input.Split(_delimiters.ToArray(), System.StringSplitOptions.RemoveEmptyEntries).ToList();
+            var segments = input.Split(delimiters.ToArray(), System.StringSplitOptions.RemoveEmptyEntries).ToList();
             var numbers = new List<int>();
             segments.ForEach(x =>
             {
