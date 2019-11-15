@@ -7,5 +7,7 @@ namespace StringCalculator.Services.Interfaces
     public interface ICalculatorService
     {
         int Calculate(string input);
+        string CalculateToString(string input);
+
     }
 }

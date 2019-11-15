@@ -20,7 +20,7 @@ namespace StringCalculator
                     var calculatorService =
                         new CalculatorService(new InputProcessorService(new DelimiterHelper()),
                                               new ValidatorService());
-                    Console.WriteLine($"Your result is: {calculatorService.Calculate(input)}");
+                    Console.WriteLine($"Your result is: {calculatorService.CalculateToString(input)}");
                 }
                 catch (Exception ex)
                 {

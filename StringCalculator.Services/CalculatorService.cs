@@ -19,13 +19,25 @@ namespace StringCalculator.Services
         }
         public int Calculate(string input)
         {
+            var numbers = GetNumbers(input);
+            return numbers.Sum();
+        }
+
+        public string CalculateToString(string input)
+        {
+            var numbers = GetNumbers(input);
+            return $"{string.Join("+", numbers)} = {numbers.Sum()}";
+        }
+
+        private IEnumerable<int> GetNumbers(string input)
+        {
             var numbers = _inputProcessorService.ProcessInput(input);
             var exception = _validatorService.Validate(numbers);
-            if(exception != null)
+            if (exception != null)
             {
                 throw exception;
             }
-            return numbers.Sum();
+            return numbers;
         }
     }
 }
