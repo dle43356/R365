@@ -6,7 +6,7 @@ namespace StringCalculator.Entities
 {
     public class CustomDelimiter
     {
-        public string Delimiter { get; set; }
+        public IEnumerable<string> Delimiters { get; set; }
         public int LengthToRemoveFromInput { get; set; }
     }
 }

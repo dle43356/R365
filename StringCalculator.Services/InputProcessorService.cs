@@ -18,12 +18,12 @@ namespace StringCalculator.Services
 
         public IEnumerable<int> ProcessInput(string input)
         {
-            var delimiters = GetDefaultDelimiters();
+            var delimiters = GetDefaultDelimiters().ToList();
 
             var customDelimiter = _delimiterHelper.GetCustomDelimiter(input);
-            if (!string.IsNullOrEmpty(customDelimiter?.Delimiter))
+            if (customDelimiter?.Delimiters?.Count() > 0)
             {
-                delimiters.Add(customDelimiter.Delimiter);
+                delimiters.AddRange(customDelimiter.Delimiters.ToList());
                 input = input.Substring(customDelimiter.LengthToRemoveFromInput);
             }
             var segments = input.Split(delimiters.ToArray(), System.StringSplitOptions.RemoveEmptyEntries).ToList();

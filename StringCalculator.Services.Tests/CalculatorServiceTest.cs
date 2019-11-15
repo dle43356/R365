@@ -71,7 +71,7 @@ namespace Tests
         }
 
         [Test]
-        public void TestCalculateCustomDelimiterMultipleCharacters()
+        public void TestCalculateCustomDelimiterString()
         {
             var result = _calculatorService.Calculate(@"//#\n2#5");
             Assert.IsTrue(result == 7);
@@ -79,6 +79,13 @@ namespace Tests
             Assert.IsTrue(result == 66);
             result = _calculatorService.Calculate(@"//[***]\n11***22***33,5");
             Assert.IsTrue(result == 71);
+        }
+
+        [Test]
+        public void TestCalculateCustomDelimiterMultipleStrings()
+        {
+            var result = _calculatorService.Calculate(@"//[*][!!][r9r]\n11r9r22*hh*33!!44");
+            Assert.IsTrue(result == 110);
         }
     }
 }
