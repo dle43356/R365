@@ -222,13 +222,27 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.2",
         "dependencies": {
-          "StringCalculator.Entities": "1.0.0"
+          "StringCalculator.Entities": "1.0.0",
+          "StringCalculator.Utilities": "1.0.0"
         },
         "compile": {
           "bin/placeholder/StringCalculator.Services.dll": {}
         },
         "runtime": {
           "bin/placeholder/StringCalculator.Services.dll": {}
+        }
+      },
+      "StringCalculator.Utilities/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.2",
+        "dependencies": {
+          "StringCalculator.Entities": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/StringCalculator.Utilities.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/StringCalculator.Utilities.dll": {}
         }
       }
     }
@@ -711,6 +725,11 @@
       "type": "project",
       "path": "../StringCalculator.Services/StringCalculator.Services.csproj",
       "msbuildProject": "../StringCalculator.Services/StringCalculator.Services.csproj"
+    },
+    "StringCalculator.Utilities/1.0.0": {
+      "type": "project",
+      "path": "../StringCalculator.Utilities/StringCalculator.Utilities.csproj",
+      "msbuildProject": "../StringCalculator.Utilities/StringCalculator.Utilities.csproj"
     }
   },
   "projectFileDependencyGroups": {

@@ -6,6 +6,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\StringCalculator.Entities\StringCalculator.Entities.csproj" />
+    <ProjectReference Include="..\StringCalculator.Utilities\StringCalculator.Utilities.csproj" />
   </ItemGroup>
 
 </Project>

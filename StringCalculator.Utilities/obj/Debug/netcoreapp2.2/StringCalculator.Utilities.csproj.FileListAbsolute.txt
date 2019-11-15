@@ -1,0 +1,11 @@
+C:\WorkFiles\Prototypes\R365\R365\StringCalculator.Utilities\bin\Debug\netcoreapp2.2\StringCalculator.Utilities.deps.json
+C:\WorkFiles\Prototypes\R365\R365\StringCalculator.Utilities\bin\Debug\netcoreapp2.2\StringCalculator.Utilities.dll
+C:\WorkFiles\Prototypes\R365\R365\StringCalculator.Utilities\bin\Debug\netcoreapp2.2\StringCalculator.Utilities.pdb
+C:\WorkFiles\Prototypes\R365\R365\StringCalculator.Utilities\obj\Debug\netcoreapp2.2\StringCalculator.Utilities.AssemblyInfoInputs.cache
+C:\WorkFiles\Prototypes\R365\R365\StringCalculator.Utilities\obj\Debug\netcoreapp2.2\StringCalculator.Utilities.AssemblyInfo.cs
+C:\WorkFiles\Prototypes\R365\R365\StringCalculator.Utilities\obj\Debug\netcoreapp2.2\StringCalculator.Utilities.dll
+C:\WorkFiles\Prototypes\R365\R365\StringCalculator.Utilities\obj\Debug\netcoreapp2.2\StringCalculator.Utilities.pdb
+C:\WorkFiles\Prototypes\R365\R365\StringCalculator.Utilities\bin\Debug\netcoreapp2.2\StringCalculator.Entities.dll
+C:\WorkFiles\Prototypes\R365\R365\StringCalculator.Utilities\bin\Debug\netcoreapp2.2\StringCalculator.Entities.pdb
+C:\WorkFiles\Prototypes\R365\R365\StringCalculator.Utilities\obj\Debug\netcoreapp2.2\StringCalculator.Utilities.csprojAssemblyReference.cache
+C:\WorkFiles\Prototypes\R365\R365\StringCalculator.Utilities\obj\Debug\netcoreapp2.2\StringCalculator.Utilities.csproj.CopyComplete

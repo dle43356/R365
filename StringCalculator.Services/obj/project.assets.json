@@ -217,6 +217,19 @@
         "runtime": {
           "bin/placeholder/StringCalculator.Entities.dll": {}
         }
+      },
+      "StringCalculator.Utilities/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.2",
+        "dependencies": {
+          "StringCalculator.Entities": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/StringCalculator.Utilities.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/StringCalculator.Utilities.dll": {}
+        }
       }
     }
   },
@@ -693,12 +706,18 @@
       "type": "project",
       "path": "../StringCalculator.Entities/StringCalculator.Entities.csproj",
       "msbuildProject": "../StringCalculator.Entities/StringCalculator.Entities.csproj"
+    },
+    "StringCalculator.Utilities/1.0.0": {
+      "type": "project",
+      "path": "../StringCalculator.Utilities/StringCalculator.Utilities.csproj",
+      "msbuildProject": "../StringCalculator.Utilities/StringCalculator.Utilities.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.2": [
       "Microsoft.NETCore.App >= 2.2.0",
-      "StringCalculator.Entities >= 1.0.0"
+      "StringCalculator.Entities >= 1.0.0",
+      "StringCalculator.Utilities >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -736,6 +755,9 @@
           "projectReferences": {
             "C:\\WorkFiles\\Prototypes\\R365\\R365\\StringCalculator.Entities\\StringCalculator.Entities.csproj": {
               "projectPath": "C:\\WorkFiles\\Prototypes\\R365\\R365\\StringCalculator.Entities\\StringCalculator.Entities.csproj"
+            },
+            "C:\\WorkFiles\\Prototypes\\R365\\R365\\StringCalculator.Utilities\\StringCalculator.Utilities.csproj": {
+              "projectPath": "C:\\WorkFiles\\Prototypes\\R365\\R365\\StringCalculator.Utilities\\StringCalculator.Utilities.csproj"
             }
           }
         }

@@ -985,10 +985,19 @@
       },
       "StringCalculator.Services/1.0.0": {
         "dependencies": {
-          "StringCalculator.Entities": "1.0.0"
+          "StringCalculator.Entities": "1.0.0",
+          "StringCalculator.Utilities": "1.0.0"
         },
         "runtime": {
           "StringCalculator.Services.dll": {}
+        }
+      },
+      "StringCalculator.Utilities/1.0.0": {
+        "dependencies": {
+          "StringCalculator.Entities": "1.0.0"
+        },
+        "runtime": {
+          "StringCalculator.Utilities.dll": {}
         }
       }
     }
@@ -1502,6 +1511,11 @@
       "sha512": ""
     },
     "StringCalculator.Services/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "StringCalculator.Utilities/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

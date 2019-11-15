@@ -1,4 +1,5 @@
 ﻿using StringCalculator.Services;
+using StringCalculator.Utilities;
 using System;
 
 namespace StringCalculator
@@ -13,7 +14,7 @@ namespace StringCalculator
             try
             {
                 var calculatorService =
-                    new CalculatorService(new InputProcessorService(),
+                    new CalculatorService(new InputProcessorService(new DelimiterHelper()),
                                           new ValidatorService());
                 Console.WriteLine(calculatorService.Calculate(input));
             }

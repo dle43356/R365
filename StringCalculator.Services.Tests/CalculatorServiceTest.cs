@@ -2,6 +2,7 @@ using NUnit.Framework;
 using StringCalculator.Entities.Exceptions;
 using StringCalculator.Services;
 using StringCalculator.Services.Interfaces;
+using StringCalculator.Utilities;
 
 namespace Tests
 {
@@ -12,7 +13,7 @@ namespace Tests
         [SetUp]
         public void Setup()
         {
-            _calculatorService = new CalculatorService(new InputProcessorService(),
+            _calculatorService = new CalculatorService(new InputProcessorService(new DelimiterHelper()),
                                                        new ValidatorService());
         }
 
@@ -58,6 +59,15 @@ namespace Tests
         {
             var result = _calculatorService.Calculate(@"1\n1001,3");
             Assert.IsTrue(result == 4);
+        }
+
+        [Test]
+        public void TestCalculateCustomDelimiter()
+        {
+            var result = _calculatorService.Calculate(@"//#\n2#5");
+            Assert.IsTrue(result == 7);
+            result = _calculatorService.Calculate(@"//,\n2,ff,100");
+            Assert.IsTrue(result == 102);
         }
     }
 }

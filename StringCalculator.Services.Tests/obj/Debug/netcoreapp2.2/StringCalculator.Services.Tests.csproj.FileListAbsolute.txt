@@ -35,6 +35,9 @@ C:\WorkFiles\R365\StringCalculator.Services.Tests\obj\Debug\netcoreapp2.2\String
 C:\WorkFiles\R365\StringCalculator.Services.Tests\obj\Debug\netcoreapp2.2\StringCalculator.Services.Tests.csproj.CopyComplete
 C:\WorkFiles\R365\StringCalculator.Services.Tests\obj\Debug\netcoreapp2.2\StringCalculator.Services.Tests.dll
 C:\WorkFiles\R365\StringCalculator.Services.Tests\obj\Debug\netcoreapp2.2\StringCalculator.Services.Tests.pdb
+C:\WorkFiles\Prototypes\R365\R365\StringCalculator.Services.Tests\obj\Debug\netcoreapp2.2\StringCalculator.Services.Tests.csprojAssemblyReference.cache
+C:\WorkFiles\Prototypes\R365\R365\StringCalculator.Services.Tests\obj\Debug\netcoreapp2.2\StringCalculator.Services.Tests.AssemblyInfoInputs.cache
+C:\WorkFiles\Prototypes\R365\R365\StringCalculator.Services.Tests\obj\Debug\netcoreapp2.2\StringCalculator.Services.Tests.AssemblyInfo.cs
 C:\WorkFiles\Prototypes\R365\R365\StringCalculator.Services.Tests\bin\Debug\netcoreapp2.2\NUnit3.TestAdapter.dll
 C:\WorkFiles\Prototypes\R365\R365\StringCalculator.Services.Tests\bin\Debug\netcoreapp2.2\NUnit3.TestAdapter.pdb
 C:\WorkFiles\Prototypes\R365\R365\StringCalculator.Services.Tests\bin\Debug\netcoreapp2.2\nunit.engine.netstandard.dll
@@ -45,11 +48,10 @@ C:\WorkFiles\Prototypes\R365\R365\StringCalculator.Services.Tests\bin\Debug\netc
 C:\WorkFiles\Prototypes\R365\R365\StringCalculator.Services.Tests\bin\Debug\netcoreapp2.2\StringCalculator.Services.Tests.pdb
 C:\WorkFiles\Prototypes\R365\R365\StringCalculator.Services.Tests\bin\Debug\netcoreapp2.2\StringCalculator.Entities.dll
 C:\WorkFiles\Prototypes\R365\R365\StringCalculator.Services.Tests\bin\Debug\netcoreapp2.2\StringCalculator.Services.dll
+C:\WorkFiles\Prototypes\R365\R365\StringCalculator.Services.Tests\bin\Debug\netcoreapp2.2\StringCalculator.Utilities.dll
 C:\WorkFiles\Prototypes\R365\R365\StringCalculator.Services.Tests\bin\Debug\netcoreapp2.2\StringCalculator.Services.pdb
 C:\WorkFiles\Prototypes\R365\R365\StringCalculator.Services.Tests\bin\Debug\netcoreapp2.2\StringCalculator.Entities.pdb
-C:\WorkFiles\Prototypes\R365\R365\StringCalculator.Services.Tests\obj\Debug\netcoreapp2.2\StringCalculator.Services.Tests.csprojAssemblyReference.cache
-C:\WorkFiles\Prototypes\R365\R365\StringCalculator.Services.Tests\obj\Debug\netcoreapp2.2\StringCalculator.Services.Tests.AssemblyInfoInputs.cache
-C:\WorkFiles\Prototypes\R365\R365\StringCalculator.Services.Tests\obj\Debug\netcoreapp2.2\StringCalculator.Services.Tests.AssemblyInfo.cs
+C:\WorkFiles\Prototypes\R365\R365\StringCalculator.Services.Tests\bin\Debug\netcoreapp2.2\StringCalculator.Utilities.pdb
 C:\WorkFiles\Prototypes\R365\R365\StringCalculator.Services.Tests\obj\Debug\netcoreapp2.2\StringCalculator.Services.Tests.csproj.CopyComplete
 C:\WorkFiles\Prototypes\R365\R365\StringCalculator.Services.Tests\obj\Debug\netcoreapp2.2\StringCalculator.Services.Tests.dll
 C:\WorkFiles\Prototypes\R365\R365\StringCalculator.Services.Tests\obj\Debug\netcoreapp2.2\StringCalculator.Services.Tests.pdb
